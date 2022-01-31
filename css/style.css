@@ -10,7 +10,7 @@ a   {
 }
 body    {
     width: 1476.59px;
-height: 903.5px;
+height: 943.5px;
 margin: 0  auto;
 background: linear-gradient(121.32deg, #FFFFFF 10.96%, #FFFFFF 72%, #FFFFFF 99.98%);
 box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.14), 0px 16px 24px rgba(0, 0, 0, 0.14), 0px 4px 8px rgba(0, 0, 0, 0.14), 0px 0px 1px rgba(0, 0, 0, 0.04);
@@ -121,6 +121,9 @@ color: #404040;
     padding-top: 54px;
     margin-left: 414px;
     display: flex;
+}
+.nav:not(:last-child)   {
+    margin-right: 20px;
 }
 .header_subtitle    {
     font-size: 16.0564px;
@@ -491,7 +494,7 @@ border-radius: 10.7766px;
 }
 .people {
     
-    width: 341.51px;
+    width: 541.51px;
     height: 183.03px;
     margin-top: 40px;
 }
@@ -516,4 +519,76 @@ height: 42.14px;
 }
 .plus_circle_img    {
     margin-top: 20px;
+}
+.people_name    {
+    display: flex;
+    justify-content: space-around;
+    width: 341px;
+    margin-right: 10px;
+    font-size: 12px;
+line-height: 15px;
+font-family: "Suprema",sans-serif;
+color: #404040;
+}
+.people_bottom_container    {
+    width: 441px;
+    height: 140px;
+    display: flex;
+}
+.people_bottom  {
+    width: 316px;
+    height: 40px;
+    margin-top: 16px;
+}
+.input_pirce  {
+    background: #FFFFFF;
+    /* primary */
+    
+    border: 1px solid #197BBD;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline: none;
+    padding-left: 10px;
+    width: 175.32px;
+
+}
+
+input   {
+    width: 175.32px;
+height: 36.52px;
+background: #FFFFFF;
+/* primary */
+
+border: 1px solid #197BBD;
+box-sizing: border-box;
+border-radius: 8px;
+outline: none;
+}
+
+.send   {
+    background: #FFC145;
+border-radius: 13.617px;
+width: 131.59px;
+
+font-weight: bold;
+height: 36.52px;
+font-family: "Quicksand",sans-serif;
+}
+.btn_block  {
+    width: 157.93px;
+height: 183.03px;
+background: #bf4503;
+border-radius: 19.0044px;
+margin-left:44px;
+}
+.get    {
+    width: 99px;
+height: 50px;
+font-weight: 600;
+font-size: 20.1118px;
+line-height: 25px;
+
+color: #FFFFFF;
+margin-top: 128px;
+margin-left: 16px;
 }
